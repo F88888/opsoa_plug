@@ -7,8 +7,10 @@ import (
 
 var (
 	JobList jobList
+	Url     string
 	Key     string
 	Port    int
+	ID      int
 )
 
 type jobList struct {

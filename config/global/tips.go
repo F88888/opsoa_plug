@@ -15,6 +15,7 @@ const (
 const (
 	TaskTypeInit          = "任务初始化"
 	TaskNotExist          = "任务不存在"
+	TaskTypeStart         = "任务开始执行"
 	TaskTypeInitValue     = "任务开始载入,并进行环境初始化"
 	TaskMatchingFailed    = "任务匹配失败"
 	TaskExecutionFailed   = "任务执行失败"
